@@ -1,0 +1,17 @@
+{
+    "contents" : "# To do:\n# - with a note on some of the estimators (GMM, OLS, etc.)\n# - write up note on over-confidence, sd(beta-hat) < sd(beta-hat)\n# - write up prescriptions:\n#   - placebo tests\n#   - graphing\n#   - estimation using fully-flexible model\n#   - aggregation for serial correlation\n# - write up new thing on state-space models\n# - finish google example\n# - fix things up",
+    "created" : 1445615693707.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4676628",
+    "id" : "BC4588E1",
+    "lastKnownWriteTime" : 1445615724,
+    "path" : "~/Dropbox/07 Methods/03_DiD/pres_todo.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

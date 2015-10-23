@@ -1,0 +1,18 @@
+{
+    "contents" : "\n# ADD YOUR PACKAGES HERE! -------------------------------------------------\n\n# Add to this list any packages the class should install\nCRAN_packages <-\n  c(\"plyr\",\"dplyr\",\"ggplot2\",\"repmis\",\"rstan\",\"devtools\",\"bsts\",\"rstan\")\n\n# Install / Update packages available on CRAN -----------------------------\n\n# List all of the packages you have installed\nyour_packages <- installed.packages()[,1]\n\n# Check if you have the packages\ncheck_packages <- CRAN_packages %in% your_packages\n\n# Install packages you don't have\nnot_installed <- CRAN_packages[!check_packages]\nif (length(not_installed > 0)) {\n  sapply(not_installed,install.packages)\n}\n\n# Update any packages that need an update\nold_packages <- old.packages()[,1]\nif (length(old_packages > 0)) {\n  sapply(old_packages,install.packages)\n}\n\n# GitHub Packages ---------------------------------------------------------\n\n# Add code here for any packages we need to install from GitHub\nlibrary(devtools)\ndevtools::install_github(\"google/CausalImpact\")\n\n\n\n\n\n\n\n\n\n\n\n",
+    "created" : 1445610048822.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2900105751",
+    "id" : "39EBE53A",
+    "lastKnownWriteTime" : 1445610632,
+    "path" : "~/Dropbox/07 Methods/03_DiD/bayesianDiD/02_DiD_BSTS_models/00_packages_and_custom_functions.R",
+    "project_path" : "02_DiD_BSTS_models/00_packages_and_custom_functions.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
